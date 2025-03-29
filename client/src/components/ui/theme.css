@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@500;600;700&display=swap');
+
+:root {
+  --font-playfair: 'Playfair Display', serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  
+  --color-accent: #FF4500;
+  --color-neutral-100: #F5F5F5;
+  --color-neutral-200: #E0E0E0;
+  --color-neutral-300: #9E9E9E;
+  --color-neutral-400: #424242;
+  
+  --color-status-success: #4CAF50;
+  --color-status-error: #F44336;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.text-accent {
+  color: var(--color-accent);
+}
+
+.bg-accent {
+  background-color: var(--color-accent);
+}
+
+.border-accent {
+  border-color: var(--color-accent);
+}
+
+.bg-neutral-100 {
+  background-color: var(--color-neutral-100);
+}
+
+.bg-neutral-400 {
+  background-color: var(--color-neutral-400);
+}
+
+.text-neutral-300 {
+  color: var(--color-neutral-300);
+}
+
+.text-neutral-400 {
+  color: var(--color-neutral-400);
+}
+
+.bg-status-success {
+  background-color: var(--color-status-success);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.product-card:hover .quick-view {
+  opacity: 1;
+}
+
+.product-card:hover img {
+  transform: scale(1.03);
+  transition: transform 0.5s ease;
+}
