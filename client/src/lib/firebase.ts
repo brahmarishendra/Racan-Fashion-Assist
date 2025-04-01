@@ -4,12 +4,12 @@ import { useState, useEffect } from "react";
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD5Cnc7pSiBkVj1urKxQNlTVkHKvUzAFo8",
-  authDomain: "fashion-ai-9a90d.firebaseapp.com",
+  apiKey: "YOUR API KEY",
+  authDomain: "YOUR API KEY",
   projectId: "fashion-ai-9a90d",
   storageBucket: "fashion-ai-9a90d.appspot.com",
   messagingSenderId: "323896131179",
-  appId: "1:323896131179:web:2c96102ebef89da1153b2e",
+  appId: "YOUR API KEY",
   measurementId: "G-TDLGEJWJHC",
 };
 
